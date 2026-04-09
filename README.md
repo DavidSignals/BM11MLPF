@@ -40,9 +40,9 @@ A professional analog-modeled low-pass filter plugin based on the classic Behrin
 
 ### Technical Architecture
 - **AudioProcessorValueTreeState**: Parameter management and automation
-- **dsp::LadderFilter**: JUCE's ladder filter for analog emulation
-- **dsp::Gain**: Drive stage implementation
-- **dsp::Compressor**: Envelope follower using compressor sidechain
+- **LadderFilter**: JUCE's ladder filter for analog emulation
+- **Gain**: Drive stage implementation
+- **Compressor**: Envelope follower using compressor sidechain
 - **SmoothedValue**: Parameter smoothing for click-free transitions
 
 ## 📋 Dependencies
@@ -67,5 +67,5 @@ A professional analog-modeled low-pass filter plugin based on the classic Behrin
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/davidsignals/BM11MLPF.git
+   git clone https://github.com/DavidSignals/BM11MLPF.git
    cd BM11MLPF
